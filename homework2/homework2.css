@@ -1,0 +1,146 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.page
+{
+	margin-top: 85px;
+}
+
+header
+{
+	background-color: white;
+	height: 65px;
+	width: 100%;
+	padding: 0 20px;
+	line-height: 65px;
+	display: block;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	border-bottom: 3px solid #dddddd;
+}
+
+.top-nav
+{
+	float: right;
+}
+
+.top-nav li
+{
+	display: inline-block;
+	margin-right: 50px;
+	float: left;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a.main
+{
+	color: #846C63;
+	font-size: 30.45px;
+}
+
+.top-nav li a
+{
+	color: #88AAA9;
+	font-size: 14.5px;
+}
+
+.top-nav li a:hover
+{
+	color: #846C63;
+}
+
+.container
+{
+	width: 70%;
+	display: block;
+	color: #846C63
+	line-height: 1.5;
+}
+
+.section
+{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.section p
+{
+	color: #846C63;
+	margin-left: 200px;
+	font-size: 15px;
+}
+
+.card
+{
+	padding: 20px 0 10px 20px;
+	font-size: 50px;
+	font-weight: 100;
+	display: inline-block;
+}
+
+.card-title
+{
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-transform: uppercase;
+	line-height: 50px;
+}
+
+
+footer
+{
+	background-color: rgba(189,177,173,0.1);
+	width: 70%;
+	margin-left: 200px;
+}
+
+.footer-menu
+{
+	width: calc(100% / 5);
+	float: left;
+}
+
+.footer-menu p
+{
+	color: #846C63;
+	font-size: 25px;
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
+.footer-menu p:nth-child(2)
+{
+	font-size: 15px;
+}
+
+.footer-menu p:nth-child(3)
+{
+	font-size: 15px;
+}
+
+.footer-menu ul
+{
+	margin-bottom: 15px;
+}
+
+.footer-menu ul li
+{
+	color: #88AAA9;
+	margin: 5px;
+	list-style-type: none;
+	font-size: 15px;
+	cursor: pointer;
+}
